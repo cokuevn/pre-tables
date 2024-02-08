@@ -1,0 +1,76 @@
+div {
+  margin: 20px;
+  font-family: "Arial", sans-serif;
+
+  label {
+    margin-right: 10px;
+  }
+
+  select,
+  input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      cursor: pointer;
+      background-color: #f2f2f2;
+      &:hover {
+        opacity: 0.7;
+        transition: 0.7s;
+      }
+    }
+
+    tbody tr:hover {
+      background-color: #f5f5f5;
+    }
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 7px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &:disabled {
+      background-color: #ddd;
+      cursor: not-allowed;
+    }
+    &:hover {
+      opacity: 0.7;
+      transition: 0.7s;
+    }
+  }
+
+  div {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+    button {
+      margin-left: 10px;
+    }
+  }
+}
+
+.loupe-icon {
+  width: 10px;
+  height: 10px;
+}
